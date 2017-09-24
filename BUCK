@@ -19,3 +19,15 @@ apple_library(
         'Greeter.h'
     ]
 )
+
+apple_test(
+    name = 'GreeterTest',
+    info_plist = 'Info.plist',
+    srcs = [
+        'Greeter.m',
+        'sample.swift',
+    ],
+    exported_headers = [
+        'Greeter.h'
+    ]
+)
