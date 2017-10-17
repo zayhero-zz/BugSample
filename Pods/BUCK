@@ -1,0 +1,13 @@
+apple_library(
+  name = 'PromiseKit',
+  visibility = ['PUBLIC'],
+  swift_version = '3',
+  modular = True,
+  exported_headers = glob([
+    'PromiseKit/**/*.h',
+  ]),
+  srcs = glob([
+    'PromiseKit/**/*.m',
+    'PromiseKit/**/*.swift',
+  ]),
+)

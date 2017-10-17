@@ -1,0 +1,21 @@
+[cxx]
+  default_platform = iphonesimulator-x86_64
+  cflags = -g -fmodules -fobjc-arc -D BUCK -fmodules-cache-path=buck-cache -w
+  combined_preprocess_and_compile = true
+  enable_deprecated_prebuilt_cxx_library_api = true
+
+[apple]
+  use_swift_delegate = false
+  use_header_maps_in_xcode = false
+
+[swift]
+  version = 3.1
+  compiler_flags = -DBUCK -whole-module-optimization -enable-testing -suppress-warnings
+
+[project]
+  build_file_search_method = watchman
+  ide_force_kill = always
+  ide = xcode
+  ignore = .buckd, \
+           .git, \
+           buck-out/gen/react-native, \
