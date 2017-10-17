@@ -10,7 +10,7 @@
 
 [swift]
   version = 3.1
-  compiler_flags = -DBUCK -whole-module-optimization -enable-testing -suppress-warnings
+  compiler_flags = -DBUCK -enable-testing -suppress-warnings
 
 [project]
   build_file_search_method = watchman

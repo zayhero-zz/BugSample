@@ -1,10 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Workspace
-   version = "1.0">
-   <FileRef
-      location = "group:BugSample.xcodeproj">
-   </FileRef>
-   <FileRef
-      location = "group:Pods/Pods.xcodeproj">
-   </FileRef>
-</Workspace>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><Workspace version="1.0"><FileRef location="container:Pods/Pods.xcodeproj"/><FileRef location="container:Project.xcodeproj"/></Workspace>
