@@ -1,22 +1,15 @@
-apple_library(
-  name = 'BugSample',
-  visibility = ['PUBLIC'],
-  exported_headers = glob([
-  ]),
-  srcs = glob([
-    'BugSample/*.swift'
-  ]),
-  deps = [
-    '//Pods:PromiseKit',
-  ],
-)
-
 apple_binary(
   name = 'BugSampleBinary',
   visibility = ['PUBLIC'],
+  swift_version = '3',
+  modular = True,
+  srcs = glob([
+    'BugSample/main.m',
+    'BugSample/*.swift',
+  ]),
   deps = [
     # main binary
-    ':BugSample',
+    '//Pods:PromiseKit',
 
     # assets
     ':BugSampleAssets',

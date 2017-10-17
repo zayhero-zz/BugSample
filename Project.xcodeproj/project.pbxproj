@@ -24,6 +24,74 @@
 			<key>explicitFileType</key>
 			<string>text.script.python</string>
 		</dict>
+		<key>1DD70E2920DAE01900000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Assets.xcassets</string>
+			<key>path</key>
+			<string>BugSample/Assets.xcassets</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>explicitFileType</key>
+			<string>folder.assetcatalog</string>
+		</dict>
+		<key>1DD70E29067F3C8C00000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Base.lproj</string>
+			<key>path</key>
+			<string>BugSample/Base.lproj</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>explicitFileType</key>
+			<string>folder</string>
+		</dict>
+		<key>1DD70E29B20BDA4000000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>LaunchScreen.storyboard</string>
+			<key>path</key>
+			<string>BugSample/Base.lproj/LaunchScreen.storyboard</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+		</dict>
+		<key>1DD70E29D86F7A4600000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>path</key>
+			<string>BugSample/Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+		</dict>
+		<key>B401C979013EDE0500000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string><![CDATA[<group>]]></string>
+			<key>children</key>
+			<array>
+				<string>1DD70E2920DAE01900000000</string>
+				<string>1DD70E29067F3C8C00000000</string>
+				<string>1DD70E29B20BDA4000000000</string>
+				<string>1DD70E29D86F7A4600000000</string>
+			</array>
+		</dict>
 		<key>1DD70E294E1BC8CB00000000</key>
 		<dict>
 			<key>isa</key>
@@ -46,6 +114,19 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
+		<key>1DD70E29BF88817800000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>main.m</string>
+			<key>path</key>
+			<string>BugSample/main.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+		</dict>
 		<key>B401C979EAB5339800000000</key>
 		<dict>
 			<key>isa</key>
@@ -58,56 +139,58 @@
 			<array>
 				<string>1DD70E294E1BC8CB00000000</string>
 				<string>1DD70E29CF48322600000000</string>
+				<string>1DD70E29BF88817800000000</string>
 			</array>
 		</dict>
-		<key>B401C9798F5C591E00000000</key>
+		<key>B401C9794E8B82BF00000000</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>BugSample</string>
+			<string>BugSampleBinary</string>
 			<key>sourceTree</key>
 			<string><![CDATA[<group>]]></string>
 			<key>children</key>
 			<array>
 				<string>1DD70E29001F47FB00000000</string>
+				<string>B401C979013EDE0500000000</string>
 				<string>B401C979EAB5339800000000</string>
 			</array>
 		</dict>
-		<key>1DD70E29FF9B921500000000</key>
+		<key>1DD70E296EF6801600000000</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>BugSample#iphonesimulator-x86_64,static-Debug.xcconfig</string>
+			<string>BugSampleBinary-Debug.xcconfig</string>
 			<key>path</key>
-			<string>buck-out/gen/BugSample#iphonesimulator-x86_64,static-Debug.xcconfig</string>
+			<string>buck-out/gen/BugSampleBinary-Debug.xcconfig</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 			<key>explicitFileType</key>
 			<string>text.xcconfig</string>
 		</dict>
-		<key>1DD70E296C21F83F00000000</key>
+		<key>1DD70E2970796A0000000000</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>BugSample#iphonesimulator-x86_64,static-Profile.xcconfig</string>
+			<string>BugSampleBinary-Profile.xcconfig</string>
 			<key>path</key>
-			<string>buck-out/gen/BugSample#iphonesimulator-x86_64,static-Profile.xcconfig</string>
+			<string>buck-out/gen/BugSampleBinary-Profile.xcconfig</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 			<key>explicitFileType</key>
 			<string>text.xcconfig</string>
 		</dict>
-		<key>1DD70E29DFB8A3A100000000</key>
+		<key>1DD70E29E410156200000000</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>BugSample#iphonesimulator-x86_64,static-Release.xcconfig</string>
+			<string>BugSampleBinary-Release.xcconfig</string>
 			<key>path</key>
-			<string>buck-out/gen/BugSample#iphonesimulator-x86_64,static-Release.xcconfig</string>
+			<string>buck-out/gen/BugSampleBinary-Release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 			<key>explicitFileType</key>
@@ -123,9 +206,9 @@
 			<string><![CDATA[<group>]]></string>
 			<key>children</key>
 			<array>
-				<string>1DD70E29FF9B921500000000</string>
-				<string>1DD70E296C21F83F00000000</string>
-				<string>1DD70E29DFB8A3A100000000</string>
+				<string>1DD70E296EF6801600000000</string>
+				<string>1DD70E2970796A0000000000</string>
+				<string>1DD70E29E410156200000000</string>
 			</array>
 		</dict>
 		<key>B401C979B781F65D00000000</key>
@@ -167,18 +250,16 @@
 				<string>1DD70E29AC7B6E1300000000</string>
 			</array>
 		</dict>
-		<key>1DD70E2938FA97EC00000000</key>
+		<key>1DD70E294E8B82BF00000000</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>libBugSample.a</string>
+			<string>BugSampleBinary</string>
 			<key>path</key>
-			<string>libBugSample.a</string>
+			<string>BugSampleBinary</string>
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
 		</dict>
 		<key>B401C979C806358400000000</key>
 		<dict>
@@ -190,7 +271,7 @@
 			<string><![CDATA[<group>]]></string>
 			<key>children</key>
 			<array>
-				<string>1DD70E2938FA97EC00000000</string>
+				<string>1DD70E294E8B82BF00000000</string>
 			</array>
 		</dict>
 		<key>B401C979EFB6AC4600000000</key>
@@ -203,7 +284,7 @@
 			<string><![CDATA[<group>]]></string>
 			<key>children</key>
 			<array>
-				<string>B401C9798F5C591E00000000</string>
+				<string>B401C9794E8B82BF00000000</string>
 				<string>B401C979B781F65D00000000</string>
 				<string>B401C97968022A5500000000</string>
 				<string>B401C979C806358400000000</string>
@@ -223,6 +304,13 @@
 			<key>fileRef</key>
 			<string>1DD70E29CF48322600000000</string>
 		</dict>
+		<key>E7A30F04BF88817800000000</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>fileRef</key>
+			<string>1DD70E29BF88817800000000</string>
+		</dict>
 		<key>1870857F0000000000000000</key>
 		<dict>
 			<key>isa</key>
@@ -231,6 +319,7 @@
 			<array>
 				<string>E7A30F044E1BC8CB00000000</string>
 				<string>E7A30F04CF48322600000000</string>
+				<string>E7A30F04BF88817800000000</string>
 			</array>
 		</dict>
 		<key>E7A30F04AC7B6E1300000000</key>
@@ -240,22 +329,14 @@
 			<key>fileRef</key>
 			<string>1DD70E29AC7B6E1300000000</string>
 		</dict>
-		<key>FAF5FAC90000000000000000</key>
+		<key>4F426D880000000000000000</key>
 		<dict>
 			<key>isa</key>
-			<string>PBXCopyFilesBuildPhase</string>
+			<string>PBXFrameworksBuildPhase</string>
 			<key>files</key>
 			<array>
 				<string>E7A30F04AC7B6E1300000000</string>
 			</array>
-			<key>name</key>
-			<string>Fake Swift Dependencies (Copy Files Phase)</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<integer>1</integer>
-			<key>dstSubfolderSpec</key>
-			<integer>16</integer>
-			<key>dstPath</key>
-			<string></string>
 		</dict>
 		<key>4952437303EDA63300000000</key>
 		<dict>
@@ -267,7 +348,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E29FF9B921500000000</string>
+			<string>1DD70E296EF6801600000000</string>
 		</dict>
 		<key>4952437350C7218900000000</key>
 		<dict>
@@ -279,7 +360,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E296C21F83F00000000</string>
+			<string>1DD70E2970796A0000000000</string>
 		</dict>
 		<key>49524373A439BFE700000000</key>
 		<dict>
@@ -291,7 +372,7 @@
 			<dict>
 			</dict>
 			<key>baseConfigurationReference</key>
-			<string>1DD70E29DFB8A3A100000000</string>
+			<string>1DD70E29E410156200000000</string>
 		</dict>
 		<key>218C37090000000000000000</key>
 		<dict>
@@ -306,25 +387,25 @@
 			<key>defaultConfigurationIsVisible</key>
 			<false/>
 		</dict>
-		<key>E66DC04E8F5C591E00000000</key>
+		<key>E66DC04E4E8B82BF00000000</key>
 		<dict>
 			<key>isa</key>
 			<string>PBXNativeTarget</string>
 			<key>name</key>
-			<string>BugSample</string>
+			<string>BugSampleBinary</string>
 			<key>productName</key>
-			<string>BugSample</string>
+			<string>BugSampleBinary</string>
 			<key>productReference</key>
-			<string>1DD70E2938FA97EC00000000</string>
+			<string>1DD70E294E8B82BF00000000</string>
 			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
+			<string>com.apple.product-type.tool</string>
 			<key>dependencies</key>
 			<array>
 			</array>
 			<key>buildPhases</key>
 			<array>
 				<string>1870857F0000000000000000</string>
-				<string>FAF5FAC90000000000000000</string>
+				<string>4F426D880000000000000000</string>
 			</array>
 			<key>buildConfigurationList</key>
 			<string>218C37090000000000000000</string>
@@ -380,7 +461,7 @@
 			<string>B401C979EFB6AC4600000000</string>
 			<key>targets</key>
 			<array>
-				<string>E66DC04E8F5C591E00000000</string>
+				<string>E66DC04E4E8B82BF00000000</string>
 			</array>
 			<key>buildConfigurationList</key>
 			<string>218C37090000000000000001</string>

@@ -1,0 +1,1 @@
+{"required-targets":[],"xcconfig-paths":["buck-out/gen/BugSampleApp-Debug.xcconfig","buck-out/gen/BugSampleApp-Profile.xcconfig","buck-out/gen/BugSampleApp-Release.xcconfig","buck-out/gen/Pods/PromiseKit-Debug.xcconfig","buck-out/gen/Pods/PromiseKit-Profile.xcconfig","buck-out/gen/Pods/PromiseKit-Release.xcconfig"],"copy-in-xcode":[]}
